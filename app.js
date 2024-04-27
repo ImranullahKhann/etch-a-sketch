@@ -17,6 +17,10 @@ btn.addEventListener("click", () => {
   }
   height = +prompt("Height: ");
   width = +prompt("Width: ");
+  if (width > 100)
+    width = 100;
+  if (height > 100)
+    height = 100;
   // making squares and appending them to container
   for (i = 0; i < height*width; i++)
   {
