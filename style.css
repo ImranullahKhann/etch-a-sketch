@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.container {
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: white;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+button {
+  align-self: center;
+}
+
+/* aspect-ratio: 1 /1; */
+
